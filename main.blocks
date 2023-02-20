@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="nX*[=6VBYH+vfx=]9.js">ps enemigo</variable><variable id="VLFj*JpjY8)I^lk=R]/+">sprite</variable></variables><block type="pxt-on-start" id="U,E*#s;NeR$jHFX@p)q|" x="0" y="0"><statement name="HANDLER"><block type="variables_change" id="*TM$ubB9Se8p0Ihw#I37"><field name="VAR" id="nX*[=6VBYH+vfx=]9.js">ps enemigo</field><value name="VALUE"><shadow type="math_number" id="/ezrOAxSK}Rh:{yCio7_"><field name="NUM">89</field></shadow></value><next><block type="device_show_leds" id="a7N:#MwA.r;qyX{~8)d7"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="VcZ=(MZ?dLK}?^{ud#2*"><field name="LEDS">`
+        # . . . # 
+        . # # # . 
+        # # . # # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="^5(+j$Yg~RgFI,PEu)to" x="36" y="178"></block><block type="device_button_event" id="8zqk$dd)0R|L59%sWMLp" x="389" y="284"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="oL_78ne`KoIcUZl4s8$Y"><field name="VAR" id="nX*[=6VBYH+vfx=]9.js">ps enemigo</field><value name="VALUE"><shadow type="math_number" id="@TS`o`E+At~KQaD?j{39"><field name="NUM">10</field></shadow></value></block></statement></block><block type="device_forever" id="_:HLx_,Q_?v]j%B.]$G(" x="197" y="314"><statement name="HANDLER"><block type="controls_if" id="E=}wptZgN199ycd,E|TP"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="*l819eNB+UWJ~T+G6~ty"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="+?2Yh@K.{G!r1g8r;b~J"><field name="VAR" id="nX*[=6VBYH+vfx=]9.js">ps enemigo</field></block></value><value name="B"><shadow type="math_number" id="wD}!]uW,igiE*S1V8*%l"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="variables_change" id="^_f$-40{x^_)GRStJ=h`"><field name="VAR" id="nX*[=6VBYH+vfx=]9.js">ps enemigo</field><value name="VALUE"><shadow type="math_number" id="fK1LAE2gg0z7:^hzG26h"><field name="NUM">89</field></shadow></value><next><block type="controls_repeat_ext" id="%v5n3Q]El*MFCJ#JKa`g"><value name="TIMES"><shadow type="math_whole_number" id="sFXMQNTE:`F%f1b3YDnm"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="yikBmN@/qL~$+U:P9mj*"><field name="LEDS">`
+        # . . . # 
+        . # # # . 
+        # # . # # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="f1ta9LhJ)7^c6_IjAjb^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></next></block></statement></block></statement></block><block type="device_button_event" id="0ZaFhm=lWZ%@Dwg4FO.T" x="726" y="290"><field name="NAME">Button.B</field></block></xml>
